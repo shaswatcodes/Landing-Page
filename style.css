@@ -81,3 +81,36 @@ body{
     margin: 0px;
    
 }
+.infohead{
+    color: #1F2937;
+    font-weight: bolder;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 40px;
+    padding: 60px;
+}
+.facts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 20px;
+}
+.info .factimage img{
+    width:150px; 
+    height:150px;
+    border-color: #3882F6;
+    border-radius: 5%;
+
+}
+.fact{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
